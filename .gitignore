@@ -8,4 +8,3 @@ __pycache__
 *.ll
 rebel/cpp_modules/*
 rebel.egg-info
-tests
