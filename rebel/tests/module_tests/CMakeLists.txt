@@ -1,3 +1,0 @@
-add_executable(module_tests module_tests.cpp)
-target_link_libraries(module_tests PRIVATE gtest_main)
-gtest_discover_tests(module_tests)

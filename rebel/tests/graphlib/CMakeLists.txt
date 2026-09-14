@@ -1,0 +1,3 @@
+add_executable(graphlib graphlib.cpp)
+target_link_libraries(graphlib PRIVATE gtest_main)
+gtest_discover_tests(graphlib)
