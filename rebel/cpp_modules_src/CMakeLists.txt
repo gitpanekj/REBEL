@@ -15,6 +15,7 @@ message(STATUS "Python shared library suffix: ${PYTHON_EXTENSION_SUFFIX}")
 # pybind
 add_subdirectory(pybind11)
 # modules
+add_subdirectory(graphlib)
 add_subdirectory(directed_labeled_graph)
 add_subdirectory(labeled_transition_system)
 add_subdirectory(difference_constraint_program)

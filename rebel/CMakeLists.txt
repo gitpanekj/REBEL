@@ -4,6 +4,7 @@ project(rebel)
 set(CMAKE_CXX_STANDARD 23 CACHE STRING "")
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 #set(LT_LLVM_INSTALL_DIR "" CACHE PATH "")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(cpp_modules_src)
 

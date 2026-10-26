@@ -1,3 +1,4 @@
-add_executable(graphlib graphlib.cpp)
-target_link_libraries(graphlib PRIVATE gtest_main)
-gtest_discover_tests(graphlib)
+add_executable(graphlib_tests graph_topology_tests.cpp graph_label_tests.cpp)
+target_link_libraries(graphlib_tests PRIVATE gtest_main graphlib)
+target_include_directories(graphlib_tests PRIVATE ${CMAKE_SOURCE_DIR}/cpp_modules_src/include)
+gtest_discover_tests(graphlib_tests)
